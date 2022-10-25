@@ -251,7 +251,6 @@ a:hover {
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
-
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -400,6 +399,9 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .nav > li > a:hover{
+        border-bottom: 2px solid #F3976C;
     }
 }
 
