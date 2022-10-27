@@ -1051,5 +1051,6 @@ q {
     .image-resize-mode{
         height: 90px;
         width: 90px;
+        object-fit: contain;
     }
 }
