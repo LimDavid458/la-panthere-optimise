@@ -401,8 +401,11 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .navbar-nav > li > a{
+        border-bottom: 2px solid transparent;
+    }
     .nav > li > a:hover{
-        border-bottom: 2px solid #F3976C;
+        border-color:#F3976C;
     }
 }
 
