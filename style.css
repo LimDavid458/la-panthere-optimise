@@ -1050,4 +1050,7 @@ q {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .portfolio-thumb{
+        margin: auto;
+    }
 }
