@@ -142,6 +142,7 @@ a:hover {
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -334,7 +335,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #F3976C;
+    color: #292114!important;
 }
 
 .navbar-toggle {
@@ -560,7 +562,8 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img,
+a[data-lightbox]:focus img  {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -710,6 +713,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.social:focus{
+    padding-bottom: 5px;
+    border-bottom: 2px solid blue; 
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -797,7 +805,8 @@ q {
     color: #292114!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -808,6 +817,10 @@ q {
 
 .ltc-white:hover {
     color: #cccccc!important;
+}
+
+.ltc-white:focus{
+    color: #c27956!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1052,5 +1065,13 @@ q {
     }
     .portfolio-thumb{
         margin: auto;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    a:focus{
+     text-decoration: none;  
     }
 }
